@@ -6,10 +6,15 @@
 #messages {
     height: 90vh;
     overflow-y: scroll;
+    padding-left: 0;
 }
 
 #messages > li {
     list-style-type: none;
+}
+
+#messages > li:nth-child(2n){
+    background-color: #b9ecb9;
 }
 
 .send-btn {
@@ -18,7 +23,7 @@
     margin-top: -5px;
 }
 
-#userName {
+#userName, #room {
     display: block;
     margin: auto;
     margin-bottom: 15px;
@@ -45,10 +50,9 @@
 .pop-up_body {
     margin: auto;
     width: 500px;
-    height: 250px;
     background-color: #fff;
     border-radius: 10px;
     text-align: center;
-    padding-top: 70px;
+    padding: 40px;
     position: relative;
 }

@@ -8,11 +8,14 @@
 <body>
     <div class="pop-up">
         <div class="pop-up_container">
-            <form class="pop-up_body">
+            <div class="pop-up_body">
                     <p>Enter you nickname please:</p>
                     <input id="userName" class="form-control"/>
-                    <button class="btn btn-success pop-up_btn">Enter</button>
-            </form>
+                    <p>Enter a room name:</p>
+                    <input id="room" class="form-control"/>
+                    <button class="btn btn-success pop-up_no-room-btn">No room (public)</button>
+                    <button class="btn btn-success pop-up_enter-btn">Enter</button>
+            </div>
         </div>
     </div>
     <ul id="messages"></ul>
