@@ -1,0 +1,54 @@
+#input {
+    width: 90vw;
+    display: inline-block;
+}
+
+#messages {
+    height: 90vh;
+    overflow-y: scroll;
+}
+
+#messages > li {
+    list-style-type: none;
+}
+
+.send-btn {
+    width: 8vw;
+    display: inline-block;
+    margin-top: -5px;
+}
+
+#userName {
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    width: 50%;
+}
+
+.pop-up {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 2;
+}
+
+.pop-up_container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.pop-up_body {
+    margin: auto;
+    width: 500px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 70px;
+    position: relative;
+}
